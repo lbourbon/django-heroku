@@ -74,7 +74,9 @@ pip freeze > requirements-dev.txt
 
 ## Create a file Procfile and add the following code
 * web: gunicorn website.wsgi --log-file -
-
+```
+replace "website" by the name of your project
+```
 ## Create a file runtime.txt and add the following core
 * python-3.6.0
 
